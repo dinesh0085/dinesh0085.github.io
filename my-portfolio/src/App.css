@@ -48,6 +48,8 @@
   
 }
 
+
+
 body{
   background: black;
   color: #fff;
@@ -65,16 +67,38 @@ body{
   padding: 10px 10%;
 }
 
+
 nav{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: white;
+  z-index: 100;
 }
+
+
+.homepage-container{
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-evenly;
+  gap: 50px;
+  align-items: center;
+}
+
+
+
+
+
+
 
 .logo{
 width: 140px;
-
+margin-left: 10px;
 }
 
 nav ul li{
@@ -83,7 +107,7 @@ nav ul li{
   margin: 10px 20px;
 }
 nav ul li a{
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -110,8 +134,11 @@ nav ul li a:hover::after{
   margin-top: 10%;
   font-size: 30px;
   text-align: center;
+  width: 50%;
 
 }
+
+
 
 .header-text h1{
   font-size: 60px;
@@ -122,12 +149,23 @@ nav ul li a:hover::after{
   color: #ff004f;
 }
 
+
+
+.profile-pic{
+  width: 50%;
+
+}
+
+.profile-pic img{
+  width: 90%;
+}
+
 .btn{
   display: block;
   margin: 50px auto;
   width: fit-content;
   border: 1px solid #ff004f;
-  padding: 14px 50px;
+  padding: 10px 30px;
   border-radius: 6px;
   text-decoration: none;
   color: white;
@@ -186,3 +224,353 @@ nav ul li a:hover::after{
   color: white;
 }
 
+
+
+/* -------------project------------------------- */
+
+
+#portfolio{
+  padding: 50px 0;
+
+}
+
+.worklist{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:40px;
+  margin-top: 50px;
+}
+
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer{
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.layer a{
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+
+
+
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.project-description{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  box-shadow: rgba(250, 249, 249, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+
+#github{
+  width: 80vw;
+  margin: auto;
+  font-size: 28px;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+
+  #header{
+    width: 100%;
+    
+   }
+  
+  .container{
+    padding: 10px 10%;
+  }
+  
+  .logo{
+    width: 80%;
+    margin-left: 10px;
+    }
+  
+  nav{
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+  
+  }
+
+  #sidemenu li{
+    margin-top: 50px;
+  }
+
+    nav img{
+    margin-top: 20px;
+    }
+
+  #main-container{
+    width: 70vw;
+    margin-left:20vw;
+
+  }
+  .homepage-container{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+  }
+
+
+
+  
+  
+  #header{
+    width: 80vw;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+   .header-text{
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+    
+ }
+
+ 
+
+.header-text h1{
+    font-size: 30px;
+}
+
+
+
+
+
+#about{
+ width: 80vw;
+
+}
+
+
+
+
+
+.subtitle{
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+/* -------project-------------------- */
+
+#portfolio{
+  width: 80vw;
+  margin-left: 20vw;
+
+}
+
+
+#github{
+  width: 80vw;
+  margin-left: 20vw;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:480px){
+  
+
+  #header{
+    width: 100%;
+    
+   }
+  
+  .container{
+    padding: 10px 10%;
+  }
+  
+  .logo{
+    width: 60%;
+    }
+  
+  nav{
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+  
+  }
+
+  #sidemenu li{
+    margin-top: 30px;
+    
+  }
+  #sidemenu li a{
+    font-size: 10px;
+    
+  }
+
+    nav img{
+    margin-top: 20px;
+    }
+
+  #main-container{
+    width: 70vw;
+    margin-left:20vw;
+
+  }
+  .homepage-container{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+  }
+
+
+
+  
+  
+  #header{
+    width: 80vw;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+   .header-text{
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    
+ }
+
+ 
+
+.header-text h1{
+    font-size: 20px;
+}
+
+
+
+
+
+#about{
+ width: 80vw;
+
+}
+
+
+
+
+
+.subtitle{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.subtitle+p{
+  font-size: 14px;
+}
+
+
+
+/* -------project-------------------- */
+
+#portfolio{
+  width: 80vw;
+  margin-left: 20vw;
+
+}
+
+
+#github{
+  width: 80vw;
+  margin-left: 20vw;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+}
