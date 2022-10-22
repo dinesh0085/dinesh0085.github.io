@@ -7,28 +7,28 @@ import work03 from "./image/Unsplash.png"
 import work04 from "./image/Monday.png"
 import githubCelender from "./image/Shemrush1.png"
 import githubState from "./image/GitHubState.png"
+import GitHubCalendar from 'react-github-calendar'
+import ReactTooltip from 'react-tooltip';
 import './App.css';
 
 function App() {
-    let sidemenu=document.getElementById("sidemenu")
-    let sidemenuStyle={
-        background:"#ff004f",
-        position:"fixed",
-        top:"0",
-        right: "-200px",
-        width:" 200px",
-        height: "100vh",
-        paddingTop: "50px",
-        zIndex: "2"
-    }
-
-    function openmenu(){
-        // sidemenu.style.right="0px"
-    }
-
-    function closemenu(){
-        // sidemenu.style.right="-200px"
-    }
+  
+    const selectLastHalfYear = contributions => {
+        const currentYear = new Date().getFullYear();
+        const currentMonth = new Date().getMonth();
+        const shownMonths = 9;
+      
+        return contributions.filter(day => {
+          const date = new Date(day.date);
+          const monthOfDay = date.getMonth();
+      
+          return (
+            date.getFullYear() === currentYear &&
+            monthOfDay > currentMonth - shownMonths &&
+            monthOfDay <= currentMonth
+          );
+        });
+      };
 
 
   
@@ -210,14 +210,16 @@ function App() {
             <h1>GitHub State</h1>
             <br></br>
             <br></br>
-            <img width={"80%"} src={githubState}></img>
+           
+            <img width={"80%"} src={"https://github-readme-streak-stats.herokuapp.com?user=dinesh0085"}></img>
             <br></br>
             <br></br>
             <br></br>
             <h1>GitHub Calender</h1>
             <br></br>
             <br></br>
-            <img width={"80%"}  src={githubCelender}></img>
+            <GitHubCalendar style={{width:"80%" ,margin:"auto"}} username="dinesh0085" transformData={selectLastHalfYear} hideTotalCount ></GitHubCalendar>
+            
             </div>
 
 
