@@ -41,7 +41,7 @@ function App() {
                    <li><a href="#header">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li> <a href={resume} download >Resume</a></li>
             </ul>
@@ -126,10 +126,10 @@ function App() {
 
                     </p>
 
-                    
-                 <button class=""> <a style={{TextDecoder:"none"}} href="https://netlify-thinks-jdsolankijd123-gmail-com-is-great-2696b.netlify.app/">Deployed Link</a></button>  
+                    <div>
+                 <button class=""> <a  href="https://netlify-thinks-jdsolankijd123-gmail-com-is-great-2696b.netlify.app/">Deployed Link</a></button>  
                  <button class=""> <a href="https://github.com/dinesh0085/scrawny-liquid-7267/tree/main/scrawny-liquid-7267">Github Link</a></button>  
-
+                 </div>
                     </div>
                 </div>
            
@@ -150,9 +150,10 @@ function App() {
 
 
                 
-
+                       <div>
                      <button class=""><a href="https://lyrical-toothbrush-5471.netlify.app/">Deployed Link</a></button>  
                      <button class=""> <a href="https://github.com/dinesh0085/-lyrical-toothbrush-5471">Github Link</a></button>  
+                     </div>
             </div>
             </div>
 
@@ -170,9 +171,11 @@ function App() {
                     <p>We created this project in a team of 5 members in Construct Week in Masai School, I was the leader in this project.
                         <br/><br/> Features: <br/>Fixed Navbar | Sign-in | Sign-up | Homepage | Authentication | Fixed Sidebar | Authorized user Homepage | Filter | Features page | Pricing page | Resource page | Dropdown menu 
                         <br/> <br/> <b> Tech Stack: <br/>HTML5 | CSS-3 | JavaScript | Crouser |  Authentication | Local Storage |ES6 </b></p>
-                   
+                        
+                        <div>
                    <button> <a href="https://fastidious-hotteok-25128b.netlify.app/index.html">Deployed Link</a></button>
                    <button> <a href="https://github.com/dinesh0085/concerned-teeth-2742">GitHub Link</a></button>
+                   </div>
             </div>
 
             </div>
@@ -193,8 +196,10 @@ function App() {
                            <br/>  <br/>Features: <br/> Fixed Navbar/Bottom | Sign-in | Sign-up | Homepage | Authentication | Product Pages | Cart Page | Checkout | Profile 
                            <br/> <br/><b> Tech Stack: <br/>HTML5 | CSS-3 | JavaScript | Crouser |  Authentication | Local Storage </b>
                          </p>
+                   <div>
                    <button> <a href="https://stirring-lollipop-9b03d4.netlify.app/">Deployed Link</a></button>
                    <button> <a href="https://github.com/mukundjha1310/DotandKey.com">GitHub Link</a></button>
+                   </div>
             </div>
 
             </div>
@@ -222,6 +227,13 @@ function App() {
             
             </div>
 
+
+        <div id="skills">
+
+        </div>
+        <h1 class="subtitle">
+            Skills
+        </h1>
 
         </div>
 

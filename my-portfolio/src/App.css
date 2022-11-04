@@ -176,6 +176,10 @@ nav ul li a:hover::after{
   background: #ff004f;
 }
 
+.project-description{
+  font-size: 14px;
+}
+
 
 
 
@@ -250,6 +254,8 @@ nav ul li a:hover::after{
 .work img{
   width: 100%;
   border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: block;
   transition: transform 0.5s;
 }
@@ -294,6 +300,7 @@ nav ul li a:hover::after{
 
 
 
+
 .btn{
   display: block;
   margin: 50px auto;
@@ -310,15 +317,16 @@ nav ul li a:hover::after{
   
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   background-color: white;
   color: black;
   padding: 10px 10px;
   box-shadow: rgba(250, 249, 249, 0.35) 0px 5px 15px;
   border-radius: 1rem;
-  margin-top: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: 0px;
 }
 
 
@@ -333,7 +341,23 @@ nav ul li a:hover::after{
   font-size: 28px;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+  
+}
 
+.project-description button{
+  background-color: #ff004f;
+  border-color: transparent;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+#skills{
+  margin-top: 20px;
+}
 
 
 @media only screen and (max-width:768px){
