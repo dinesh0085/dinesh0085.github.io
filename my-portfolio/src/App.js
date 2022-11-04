@@ -437,8 +437,8 @@ function App() {
             <p><i class="fa-solid fa-paper-plane"></i>Email: jdsolankijd123@gmail.com</p>
             <p style={{marginTop:"20px"}}><i class="fa-sharp fa-solid fa-square-phone"></i>Mobile: +91 7990141379</p>
             <div class="soc" style={{marginTop:"50px"}}>
-               <a href="https://github.com/dinesh0085"><img style={{width:"30px",marginRight:"20px",borderRadius:"1rem"}} src={GITHUB}></img></a>
-               <a href="https://www.linkedin.com/in/dinesh-solanki/"><img style={{width:"30px"}} src={LINKEDIN}></img></a>
+               <a href="https://github.com/dinesh0085" target="_blank"><img style={{width:"30px",marginRight:"20px",borderRadius:"1rem"}} src={GITHUB}></img></a>
+               <a href="https://www.linkedin.com/in/dinesh-solanki/" target="_blank"><img style={{width:"30px"}} src={LINKEDIN}></img></a>
             </div>
             <a href={resume} download="Dinesh-Solanki-Resume" class="btn btn2">Download CV</a>
         </div>
