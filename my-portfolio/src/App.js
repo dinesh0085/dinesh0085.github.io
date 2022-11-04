@@ -1,5 +1,5 @@
 import logo02 from "./image/logo02.png"
-import resume from "./image/my-cv.pdf"
+import resume from "./image/dinesh-solanki-resume.pdf"
 import profile from "./image/image0 (1).jpeg"
 import work01 from "./image/DotAndKey.png"
 import work02 from "./image/Shemrush3.png"
@@ -9,6 +9,25 @@ import githubCelender from "./image/Shemrush1.png"
 import githubState from "./image/GitHubState.png"
 import GitHubCalendar from 'react-github-calendar'
 import ReactTooltip from 'react-tooltip';
+import HTML from "./image/HTML.jpg"
+import CSS from "./image/CSS.png"
+import JAVASCRIPT from "./image/JAVASCRIPT.jpg"
+import REACT from "./image/REACT.png"
+import REDUX from "./image/REDUX.png"
+import EXPRESS from "./image/EXPRESS.jpg"
+import MONGODB from "./image/MONGODB.jpg"
+import TYPESCRIPT from "./image/TYPESCRIPT.jpg"
+import REACT_REDUX from "./image/REACT_REDUX.jpg"
+import NODEJS from "./image/NODEJS.png"
+import CHAKRAUI from "./image/CHAKRAUI.png"
+
+import GITHUB from "./image/GITHUB.jpg"
+import POSTMAN from "./image/POSTMAN.jpg"
+import CODESANDBOX from "./image/CODESANDBOX.jpg"
+import VSCODE from "./image/VSCODE.jpg"
+import GIT from "./image/GIT.jpg"
+import CODEPEN from "./image/CODEPEN2.png"
+import LINKEDIN from "./image/LINKEDIN.png"
 import './App.css';
 
 function App() {
@@ -43,7 +62,7 @@ function App() {
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li> <a href={resume} download >Resume</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1lyI2nwucXbk7WrtL5_urdS_-l7rgjhUR/view?usp=share_link" target="_blank" >Resume</a></li>
             </ul>
         </nav>
 
@@ -56,7 +75,7 @@ function App() {
         <div class="header-text" >
             <p>FULL STACK WEB DEVELOPER</p>
             <h1>Hi,  I'm <br/> <span>Dinesh</span>  Solanki</h1>
-            <a href={resume} download class="btn btn2">Download CV</a>
+            <a href={resume} download="Dinesh-Solanki-Resume" class="btn btn2">Download CV</a>
         </div>
 
         <div class="profile-pic">
@@ -228,12 +247,213 @@ function App() {
             </div>
 
 
-        <div id="skills">
+       <div id="skills">
+
+        <div className="inner">
+           <div className="header">
+             <h1>My Skills</h1>
+           </div>
+
+           <div className="container1">
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={HTML}></img>
+                    </div>
+                    <h3>HTML 5</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={CSS}></img>
+                    </div>
+                    <h3>CSS 3</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={JAVASCRIPT}></img>
+                    </div>
+                    <h3>JavaScript</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={REACT}></img>
+                    </div>
+                    <h3>React</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={REDUX}></img>
+                    </div>
+                    <h3>Redux</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={REACT_REDUX}></img>
+                    </div>
+                    <h3>React-Redux</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={NODEJS}></img>
+                    </div>
+                    <h3>Node Js</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={EXPRESS}></img>
+                    </div>
+                    <h3>Express.js</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={MONGODB}></img>
+                    </div>
+                    <h3>MongoDB</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={CHAKRAUI}></img>
+                    </div>
+                    <h3>CHAKRAUI</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={TYPESCRIPT}></img>
+                    </div>
+                    <h3>TYPESCRIPT</h3>
+                 </div>
+              </div>
+
+           </div>
+        </div>
+
+
+
+
+
+
+
+        <div className="inner">
+           <div className="header">
+             <h1>Tools</h1>
+           </div>
+
+           <div className="container1">
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={VSCODE}></img>
+                    </div>
+                    <h3>Vs Code</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={CODESANDBOX}></img>
+                    </div>
+                    <h3>Codesandbox</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={CODEPEN}></img>
+                    </div>
+                    <h3>Codepen</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={GITHUB}></img>
+                    </div>
+                    <h3>GitHub</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={GIT}></img>
+                    </div>
+                    <h3>Git</h3>
+                 </div>
+              </div>
+
+              <div className="skill-box">
+                 <div className="skill-title">
+                    <div className="img">
+                        <img src={POSTMAN}></img>
+                    </div>
+                    <h3>Postman</h3>
+                 </div>
+              </div>
+
+           </div>
+        </div>
 
         </div>
-        <h1 class="subtitle">
-            Skills
-        </h1>
+
+
+
+    <div id="contact">
+    <div class="container">
+       
+            <h1 class="subtitle"  style={{marginBottom:"50px"}}>Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Email: jdsolankijd123@gmail.com</p>
+            <p style={{marginTop:"20px"}}><i class="fa-sharp fa-solid fa-square-phone"></i>Mobile: +91 7990141379</p>
+            <div class="soc" style={{marginTop:"50px"}}>
+               <a href="https://github.com/dinesh0085"><img style={{width:"30px",marginRight:"20px",borderRadius:"1rem"}} src={GITHUB}></img></a>
+               <a href="https://www.linkedin.com/in/dinesh-solanki/"><img style={{width:"30px"}} src={LINKEDIN}></img></a>
+            </div>
+            <a href={resume} download="Dinesh-Solanki-Resume" class="btn btn2">Download CV</a>
+        </div>
+       
+    
+ 
+
+    <div class="copyrights">
+        <p>Copyright @ Dinesh. Made By Me</p>
+    </div>
+   </div>
+      
+
+        
+
 
         </div>
 
