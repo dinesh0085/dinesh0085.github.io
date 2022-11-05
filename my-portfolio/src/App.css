@@ -200,27 +200,12 @@ nav ul li a:hover::after{
 
 }
 
-.row{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+.about-content{
+  line-height:"35px";
+  margin-top:"20px";
+  font-size:"25px";
+  }
 
-.about-col-1{
-  flex-basis: 40%;
-
-}
-
-.about-col-1 img{
-  width: 100%;
-  border-radius: 15px;
- 
-}
-
-.about-col-2{
-  width: 50%;
-  
-}
 
 .subtitle{
   font-size: 60px;
@@ -475,6 +460,8 @@ a{
   color: #fff;
   margin-top: 0.5rem;
 }
+
+
 
 
 @media only screen and (max-width:768px){

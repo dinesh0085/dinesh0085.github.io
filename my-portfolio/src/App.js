@@ -29,26 +29,26 @@ import GIT from "./image/GIT.jpg"
 import CODEPEN from "./image/CODEPEN2.png"
 import LINKEDIN from "./image/LINKEDIN.png"
 import './App.css';
+import Stats from "./component/Stats"
 
 function App() {
   
-    const selectLastHalfYear = contributions => {
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth();
-        const shownMonths = 9;
-      
-        return contributions.filter(day => {
-          const date = new Date(day.date);
-          const monthOfDay = date.getMonth();
-      
-          return (
-            date.getFullYear() === currentYear &&
-            monthOfDay > currentMonth - shownMonths &&
-            monthOfDay <= currentMonth
-          );
-        });
-      };
-
+   const selectLastHalfYear = contributions => {
+      const currentYear = new Date().getFullYear();
+      const currentMonth = new Date().getMonth();
+      const shownMonths = 6;
+    
+      return contributions.filter(day => {
+        const date = new Date(day.date);
+        const monthOfDay = date.getMonth();
+    
+        return (
+          date.getFullYear() === currentYear &&
+          monthOfDay > currentMonth - shownMonths &&
+          monthOfDay <= currentMonth
+        );
+      });
+    };
 
   
   return (
@@ -98,10 +98,10 @@ function App() {
            
            
            
-                    <h1 class="subtitle">
+                    <h1 class="subtitle" style={{marginTop:"20px"}}>
                         About Me
                     </h1>
-                    <p>My name's Dinesh. I'm a full-stack web-developer based in Masai School, Benguluru.
+                    <p style={{lineHeight:"35px",marginTop:"20px",fontSize:"20px"}}>My name's Dinesh. I'm a full-stack web-developer based in Masai School, Benguluru.
                         <br/><br/>
                         I am a B.Tech graduate in Electronics & Communication  I love
                         exploring new technologies in the field of Web Development  and
@@ -231,20 +231,19 @@ function App() {
 
 
    <div id="github">
-            <h1>GitHub State</h1>
+            <h1>GitHub Stats</h1>
             <br></br>
             <br></br>
-           
-            <img width={"80%"} src={"https://github-readme-streak-stats.herokuapp.com?user=dinesh0085"}></img>
+            <Stats ></Stats>
             <br></br>
             <br></br>
             <br></br>
             <h1>GitHub Calender</h1>
             <br></br>
             <br></br>
-            <GitHubCalendar style={{width:"80%" ,margin:"auto"}} username="dinesh0085" transformData={selectLastHalfYear} hideTotalCount ></GitHubCalendar>
-            
-            </div>
+            <GitHubCalendar style={{width:"80%" ,margin:"auto"}} username="dinesh0085" blockSize={20}  year={new Date().getFullYear()}  ></GitHubCalendar>
+               <ReactTooltip delayShow={20}></ReactTooltip>
+               </div>
 
 
        <div id="skills">
