@@ -234,6 +234,12 @@ nav ul li a:hover::after{
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 }
 
 .work img{
@@ -299,9 +305,10 @@ nav ul li a:hover::after{
 
 
 .project-description{
-  
+  height: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 100%;
   margin: auto;
   background-color: white;
@@ -312,6 +319,7 @@ nav ul li a:hover::after{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   margin-top: 0px;
+
 }
 
 
@@ -461,6 +469,11 @@ a{
   margin-top: 0.5rem;
 }
 
+.gitHuStat{
+  width: 90%;
+  margin: auto;
+}
+
 
 
 
@@ -586,6 +599,16 @@ a{
   gap: 2rem;
   font-size: 1rem;
 
+}
+
+.gitHuStat{
+
+  width: 80vw;
+  margin: auto;
+}
+
+.work{
+  height: 550px;
 }
 
 
@@ -725,5 +748,10 @@ a{
 
 }
 
+.gitHuStat{
+
+  width: 80vw;
+  margin: auto;
+}
 
 }

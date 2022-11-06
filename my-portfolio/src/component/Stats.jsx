@@ -1,9 +1,9 @@
 const Stats=()=>{
     return (
-        <div >
+        <div  className="gitHuStat">
             <div>
             <a href="https://github.com/dinesh0085">
-                <img width={"70%"} src="http://github-readme-streak-stats.herokuapp.com?user=dinesh0085" alt="" />
+                <img width={"60%"} src="http://github-readme-streak-stats.herokuapp.com?user=dinesh0085" alt="" />
             </a>
             </div>
 
@@ -15,7 +15,7 @@ const Stats=()=>{
 
             <div>
             <a href="https://github.com/dinesh0085">
-                <img src="http://github-readme-stats.vercel.app/api?username=dinesh0085&count_private=true&show_icons=true" alt="" />
+                <img width={"40%"} src="http://github-readme-stats.vercel.app/api?username=dinesh0085&count_private=true&show_icons=true" alt="" />
             </a>
             </div>
 
