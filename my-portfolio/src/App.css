@@ -474,6 +474,12 @@ a{
   margin: auto;
 }
 
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -609,6 +615,13 @@ a{
 
 .work{
   height: 550px;
+}
+
+#contact{
+  width: 80vw;
+  margin-left: 20vw;
+  justify-content: center;
+  align-items: center;
 }
 
 
