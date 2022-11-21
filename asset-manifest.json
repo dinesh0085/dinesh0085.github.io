@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4daa42a3.css",
-    "main.js": "/static/js/main.7d99acde.js",
+    "main.js": "/static/js/main.e9ac7c3f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Unsplash.png": "/static/media/Unsplash.ffe0ac6ffcf28bd4b8ae.png",
     "static/media/DotAndKey.png": "/static/media/DotAndKey.c55b23e08a1bc0efd85d.png",
     "static/media/REACT.png": "/static/media/REACT.fb59dfc6bb1bac6b0ad0.png",
     "static/media/dinesh-solanki-resume.pdf": "/static/media/dinesh-solanki-resume.515d409eaae465f32f50.pdf",
     "static/media/REDUX.png": "/static/media/REDUX.1b4bb5fceb01b19da59d.png",
-    "static/media/image0 (1).jpeg": "/static/media/image0 (1).8b089c4b823dc6d090d8.jpeg",
     "static/media/CODEPEN2.png": "/static/media/CODEPEN2.68e2f11fe7972234523e.png",
     "static/media/JAVASCRIPT.jpg": "/static/media/JAVASCRIPT.41a585619c696fb44bbe.jpg",
     "static/media/MONGODB.jpg": "/static/media/MONGODB.078095d3d1b262e4f58f.jpg",
     "static/media/Monday.png": "/static/media/Monday.38602f402f5b9930a166.png",
     "static/media/Shemrush3.png": "/static/media/Shemrush3.0fef5c377af52da217a8.png",
+    "static/media/Dinesh_solanki.jpg": "/static/media/Dinesh_solanki.d335b72889c6521dcbfc.jpg",
     "static/media/logo02.png": "/static/media/logo02.0e12a73a25bf384582e7.png",
     "static/media/LINKEDIN.png": "/static/media/LINKEDIN.bf34d6877011977497d6.png",
     "static/media/CSS.png": "/static/media/CSS.023035db90b15332641a.png",
@@ -28,11 +28,11 @@
     "static/media/NODEJS.png": "/static/media/NODEJS.8058127d09b98b32c869.png",
     "index.html": "/index.html",
     "main.4daa42a3.css.map": "/static/css/main.4daa42a3.css.map",
-    "main.7d99acde.js.map": "/static/js/main.7d99acde.js.map",
+    "main.e9ac7c3f.js.map": "/static/js/main.e9ac7c3f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4daa42a3.css",
-    "static/js/main.7d99acde.js"
+    "static/js/main.e9ac7c3f.js"
   ]
 }
