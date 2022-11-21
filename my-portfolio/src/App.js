@@ -146,8 +146,8 @@ function App() {
                     </p>
 
                     <div>
-                 <button class=""> <a  href="https://netlify-thinks-jdsolankijd123-gmail-com-is-great-2696b.netlify.app/">Deployed Link</a></button>  
-                 <button class=""> <a href="https://github.com/dinesh0085/scrawny-liquid-7267/tree/main/scrawny-liquid-7267">Github Link</a></button>  
+                 <button class=""><a target={"_blank"}  href="https://netlify-thinks-jdsolankijd123-gmail-com-is-great-2696b.netlify.app/">Deployed Link</a></button>  
+                 <button class=""> <a target={"_blank"} href="https://github.com/dinesh0085/scrawny-liquid-7267/tree/main/scrawny-liquid-7267">Github Link</a></button>  
                  </div>
                     </div>
                 </div>
@@ -170,8 +170,8 @@ function App() {
 
                 
                        <div>
-                     <button class=""><a href="https://lyrical-toothbrush-5471.netlify.app/">Deployed Link</a></button>  
-                     <button class=""> <a href="https://github.com/dinesh0085/-lyrical-toothbrush-5471">Github Link</a></button>  
+                     <button class=""><a target={"_blank"} href="https://lyrical-toothbrush-5471.netlify.app/">Deployed Link</a></button>  
+                     <button class=""> <a target={"_blank"} href="https://github.com/dinesh0085/-lyrical-toothbrush-5471">Github Link</a></button>  
                      </div>
             </div>
             </div>
@@ -192,8 +192,8 @@ function App() {
                         <br/> <br/> <b> Tech Stack: <br/>HTML5 | CSS-3 | JavaScript | Crouser |  Authentication | Local Storage |ES6 </b></p>
                         
                         <div>
-                   <button> <a href="https://fastidious-hotteok-25128b.netlify.app/index.html">Deployed Link</a></button>
-                   <button> <a href="https://github.com/dinesh0085/concerned-teeth-2742">GitHub Link</a></button>
+                   <button> <a target={"_blank"} href="https://fastidious-hotteok-25128b.netlify.app/index.html">Deployed Link</a></button>
+                   <button> <a target={"_blank"} href="https://github.com/dinesh0085/concerned-teeth-2742">GitHub Link</a></button>
                    </div>
             </div>
 
@@ -216,8 +216,8 @@ function App() {
                            <br/> <br/><b> Tech Stack: <br/>HTML5 | CSS-3 | JavaScript | Crouser |  Authentication | Local Storage </b>
                          </p>
                    <div>
-                   <button> <a href="https://stirring-lollipop-9b03d4.netlify.app/">Deployed Link</a></button>
-                   <button> <a href="https://github.com/mukundjha1310/DotandKey.com">GitHub Link</a></button>
+                   <button> <a target={"_blank"} href="https://stirring-lollipop-9b03d4.netlify.app/">Deployed Link</a></button>
+                   <button> <a target={"_blank"} href="https://github.com/mukundjha1310/DotandKey.com">GitHub Link</a></button>
                    </div>
             </div>
 
@@ -436,8 +436,8 @@ function App() {
             <p>Email: jdsolankijd123@gmail.com</p>
             <p style={{marginTop:"20px"}}>Mobile: +91 7990141379</p>
             <div class="soc" style={{marginTop:"50px"}}>
-               <a href="https://github.com/dinesh0085" target="_blank"><img style={{width:"30px",marginRight:"20px",borderRadius:"1rem"}} src={GITHUB}></img></a>
-               <a href="https://www.linkedin.com/in/dinesh-solanki/" target="_blank"><img style={{width:"30px"}} src={LINKEDIN}></img></a>
+               <a target={"_blank"} href="https://github.com/dinesh0085" target="_blank"><img style={{width:"30px",marginRight:"20px",borderRadius:"1rem"}} src={GITHUB}></img></a>
+               <a target={"_blank"} href="https://www.linkedin.com/in/dinesh-solanki/" target="_blank"><img style={{width:"30px"}} src={LINKEDIN}></img></a>
             </div>
             <a href={resume} download="Dinesh-Solanki-Resume" class="btn btn2">Download CV</a>
        
