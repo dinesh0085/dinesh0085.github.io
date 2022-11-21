@@ -1,6 +1,6 @@
 import logo02 from "./image/logo02.png"
 import resume from "./image/dinesh-solanki-resume.pdf"
-import profile from "./image/image0 (1).jpeg"
+import profile from "./image/Dinesh_solanki.jpg"
 import work01 from "./image/DotAndKey.png"
 import work02 from "./image/Shemrush3.png"
 import work03 from "./image/Unsplash.png"
@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div class="profile-pic">
-            <img src={profile} alt="user"/>
+            <img src={profile} style={{borderRadius:"1rem"}} alt="user"/>
         </div>
         </div>
 
