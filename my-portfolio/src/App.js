@@ -1,6 +1,6 @@
 import logo02 from "./image/logo02.png"
 import resume from "./image/dinesh-solanki-resume.pdf"
-import profile from "./image/Dinesh_solanki.jpg"
+import profile from "./image/Dinesh_solanki1.jpg"
 import work01 from "./image/DotAndKey.png"
 import work02 from "./image/Shemrush3.png"
 import work03 from "./image/Unsplash.png"
@@ -78,8 +78,8 @@ function App() {
             <a href={resume} download="Dinesh-Solanki-Resume" class="btn btn2">Download CV</a>
         </div>
 
-        <div class="profile-pic">
-            <img src={profile} style={{borderRadius:"1rem"}} alt="user"/>
+        <div class="profile-pic" style={{paddingLeft:"2px"}}>
+            <img src={profile} style={{marginLeft:"2px",borderRadius:"1rem",width:"80%",border:"1px solid white",marginTop:"20px"}} alt="user"/>
         </div>
         </div>
 
@@ -101,7 +101,7 @@ function App() {
                     <h1 class="subtitle" style={{marginTop:"20px"}}>
                         About Me
                     </h1>
-                    <p style={{lineHeight:"35px",marginTop:"20px",fontSize:"20px"}}>My name's Dinesh. I'm a full-stack web-developer based in Masai School, Benguluru.
+                    <p id="details_paragraph">My name's Dinesh. I'm a full-stack web-developer based in Masai School, Benguluru.
                         <br/><br/>
                         I am a B.Tech graduate in Electronics & Communication  I love
                         exploring new technologies in the field of Web Development  and
