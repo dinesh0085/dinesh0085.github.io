@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div class="profile-pic" style={{paddingLeft:"2px"}}>
-            <img src={profile} style={{marginLeft:"2px",borderRadius:"1rem",width:"80%",border:"1px solid white",marginTop:"20px"}} alt="user"/>
+            <img src={profile} style={{marginLeft:"2px",borderRadius:"1rem",width:"60%",border:"1px solid white",marginTop:"20px"}} alt="user"/>
         </div>
         </div>
 
